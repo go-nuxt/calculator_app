@@ -19,6 +19,6 @@ double calc_sum(i64 first_number, i64 second_number);
 double calc_sub(i64 first_number, i64 second_number);
 double calc_mul(i64 first_number, i64 second_number);
 double calc_div(i64 first_number, i64 second_number);
-calc_status_t calc_compute(i64 first_number, char op, i64 second_number, double* result);
+calc_status_t calc_compute(i64 first_number, char opt, i64 second_number, double* result);
 
 #endif
